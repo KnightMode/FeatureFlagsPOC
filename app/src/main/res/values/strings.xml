@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FeatureFlagTest</string>
+    <string name="debug_activity">Debug activity</string>
+    <string name="next_screen">Next Screen</string>
+    <string name="chatbot">ChatBot</string>
+    <string name="this_is_the_text_without_feature_flag_enabled">This is the text without Feature Flag enabled</string>
+    <string name="title">Feature Flags Screen \nSelect the feature Flags you wish to enable</string>
+    <string name="disclaimer">Note:This Screen appears on all builds except release build.</string>
+    <string name="feature_1">Feature 1</string>
+    <string name="feature_2">Feature 2</string>
+    <string name="feature_3">Feature 3</string>
+</resources>
