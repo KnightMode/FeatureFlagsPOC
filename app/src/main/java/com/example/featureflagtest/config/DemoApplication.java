@@ -2,9 +2,6 @@ package com.example.featureflagtest.config;
 
 import android.app.Application;
 
-import com.example.featureflagtest.DebugActivity;
-import com.example.featureflagtest.MainActivity;
-
 import javax.inject.Singleton;
 
 import dagger.Component;
@@ -15,9 +12,9 @@ public class DemoApplication extends Application {
     public interface ApplicationComponent {
         void inject(DemoApplication application);
 
-        void inject(DebugActivity debugActivity);
+//        void inject(DebugActivity debugActivity);
 
-        void inject(MainActivity mainActivity);
+//        void inject(MainActivity mainActivity);
     }
 
     private ApplicationComponent component;
