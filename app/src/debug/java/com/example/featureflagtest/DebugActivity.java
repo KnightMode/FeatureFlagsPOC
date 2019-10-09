@@ -17,7 +17,7 @@ public class DebugActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        ((DemoApplication) getApplication()).component().inject(this);
+//        ((DemoApplication) getApplication()).component().inject(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.debug_activity);
     }

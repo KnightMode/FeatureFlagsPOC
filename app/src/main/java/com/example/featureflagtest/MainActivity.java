@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        ((DemoApplication) getApplication()).component().inject(this);
+//        ((DemoApplication) getApplication()).component().inject(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
         TextView textView = findViewById(R.id.text_field);
