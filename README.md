@@ -1,4 +1,6 @@
 # FeatureFlagsPOC
+[![CircleCI](https://circleci.com/gh/sgbcoder/FeatureFlagsPOC/tree/master.svg?style=svg)](https://circleci.com/gh/sgbcoder/FeatureFlagsPOC/tree/master)
+
 Enable Feature Flags during runtime
 
 The Conventional Way to add feature flags is to add a buildConfigField in the build.gradle and set boolean values to enable/disable the feature.
