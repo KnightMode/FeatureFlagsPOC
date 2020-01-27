@@ -12,3 +12,4 @@ The approach followed here is to have a feature flags screen (before the usual l
 and allow the user to select the desired feature flags.
 
 Once the user selects the flags, he/she will be unable to go back to the feature flag screen and needs to clear the cache/storage in order to change the build flag.
+------------------------------------------------------------------
